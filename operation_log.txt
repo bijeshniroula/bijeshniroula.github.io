@@ -1,24 +1,9 @@
-[4448:6008:0526/132930:VERBOSE1:crash_service_main.cc(68)] Session start. cmdline is [--reporter-url=http://54.249.141.255:1127/post --application-name=Atom --v=1]
-[4448:6008:0526/132930:VERBOSE1:crash_service.cc(133)] window handle is 002302DC
-[4448:6008:0526/132930:VERBOSE1:crash_service.cc(279)] pipe name is \\.\pipe\Atom Crash Service
+[1800:2520:0526/134228:VERBOSE1:crash_service_main.cc(68)] Session start. cmdline is [--reporter-url=http://54.249.141.255:1127/post --application-name=Atom --v=1]
+[1800:2520:0526/134228:VERBOSE1:crash_service.cc(133)] window handle is 000605BA
+[1800:2520:0526/134228:VERBOSE1:crash_service.cc(279)] pipe name is \\.\pipe\Atom Crash Service
 dumps at 
-[4448:6008:0526/132930:VERBOSE1:crash_service.cc(283)] checkpoint is crash_checkpoint.txt
+[1800:2520:0526/134228:VERBOSE1:crash_service.cc(283)] checkpoint is crash_checkpoint.txt
 server is http://54.249.141.255:1127/post
 maximum 128 reports/day
 reporter is atom-shell-crash-service
-[4448:6008:0526/132930:VERBOSE1:crash_service_main.cc(83)] Ready to process crash requests
-[4448:1788:0526/132930:VERBOSE1:crash_service.cc(313)] client start. pid = 3932
-[4448:1788:0526/132937:VERBOSE1:crash_service.cc(313)] client start. pid = 1860
-[5804:3352:0526/132937:VERBOSE1:crash_service_main.cc(68)] Session start. cmdline is [--reporter-url=http://54.249.141.255:1127/post --application-name=Atom --v=1]
-[5804:3352:0526/132937:VERBOSE1:crash_service.cc(133)] window handle is 000A018A
-[5804:3352:0526/132937:VERBOSE1:crash_service.cc(279)] pipe name is \\.\pipe\Atom Crash Service
-dumps at 
-[5804:3352:0526/132937:VERBOSE1:crash_service.cc(283)] checkpoint is crash_checkpoint.txt
-server is http://54.249.141.255:1127/post
-maximum 128 reports/day
-reporter is atom-shell-crash-service
-[5804:3352:0526/132937:ERROR:crash_service.cc(290)] could not start dumper
-[4448:1788:0526/133220:VERBOSE1:crash_service.cc(313)] client start. pid = 5172
-[4448:4616:0526/133221:VERBOSE1:crash_service.cc(321)] client end. pid = 5172
-[4448:1788:0526/134228:VERBOSE1:crash_service.cc(313)] client start. pid = 5804
-[4448:2804:0526/134228:VERBOSE1:crash_service.cc(321)] client end. pid = 5804
+[1800:2520:0526/134228:ERROR:crash_service.cc(290)] could not start dumper
